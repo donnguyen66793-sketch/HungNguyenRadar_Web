@@ -1,0 +1,1034 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#0f141b">
+<title>Hung Nguyen Radar v3.1.0 - Web Edition</title>
+<link rel="apple-touch-icon" sizes="128x128" href="data:image/png;base64,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">
+<link rel="icon" type="image/png" href="data:image/png;base64,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">
+<style>
+  :root {
+    --bg:#0f141b; --card:#171e28; --head:#232c3a; --fg:#e6ebf2; --mu:#8a96a8;
+    --up:#26a69a; --dn:#ef5350; --acc:#2f6fed; --amb:#ffb74d; --line:#2d3748; --inp:#1f2937;
+  }
+  [data-theme="light"] {
+    --bg:#f3f5f9; --card:#ffffff; --head:#e5e9f0; --fg:#1c2430; --mu:#5b6778;
+    --up:#0e8f6e; --dn:#d6403d; --acc:#2563eb; --amb:#b45309; --line:#cbd5e1; --inp:#ffffff;
+  }
+  [data-theme="hacker"] {
+    --bg:#000000; --card:#031008; --head:#061f0f; --fg:#39ff14; --mu:#1f9d3a;
+    --up:#39ff14; --dn:#ff3131; --acc:#0a7d2c; --amb:#c8ff00; --line:#14532d; --inp:#041a0d;
+  }
+  [data-theme="binance"] {
+    --bg:#0b0e11; --card:#181a20; --head:#22262f; --fg:#eaecef; --mu:#848e9c;
+    --up:#0ecb81; --dn:#f6465d; --acc:#fcd535; --amb:#fcd535; --line:#2b3139; --inp:#1e2329;
+  }
+  * { box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+  body {
+    margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    background:var(--bg); color:var(--fg); font-size:13px; line-height:1.45;
+    padding-bottom:env(safe-area-inset-bottom,16px);
+  }
+  header {
+    background:var(--head); padding:9px 14px; display:flex; flex-wrap:wrap; align-items:center;
+    justify-content:space-between; gap:8px; position:sticky; top:0; z-index:40; border-bottom:1px solid var(--line);
+  }
+  .brand { display:flex; align-items:center; gap:9px; font-weight:800; font-size:15px; }
+  .brand img { width:30px; height:30px; border-radius:6px; }
+  .clock { font-size:12px; color:var(--mu); font-family:Consolas,monospace; }
+  .bar { display:flex; flex-wrap:wrap; gap:6px; align-items:center; }
+  button, input, select, textarea {
+    font-family:inherit; font-size:13px; border-radius:6px; border:1px solid var(--line);
+    background:var(--inp); color:var(--fg); padding:6px 9px; min-height:32px;
+  }
+  button { cursor:pointer; font-weight:600; border:none; display:inline-flex; align-items:center; gap:5px; }
+  .btn-acc { background:var(--acc); color:#fff; }
+  .btn-up { background:var(--up); color:#fff; }
+  .btn-dn { background:var(--dn); color:#fff; }
+  .btn-gh { background:#4f46e5; color:#fff; }
+  .btn-ghost { background:var(--card); color:var(--fg); border:1px solid var(--line); }
+  .btn-sm { padding:4px 8px; min-height:26px; font-size:12px; }
+  .wrap { max-width:1420px; margin:0 auto; padding:10px; }
+  .tabs { display:flex; gap:6px; overflow-x:auto; padding-bottom:6px; margin-bottom:8px; }
+  .tab {
+    background:var(--card); color:var(--mu); border:1px solid var(--line); padding:8px 13px;
+    border-radius:8px; white-space:nowrap; font-weight:700;
+  }
+  .tab.active { background:var(--acc); color:#fff; border-color:var(--acc); }
+  .panel { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:10px 12px; margin-bottom:10px; }
+  .grid2 { display:grid; grid-template-columns:1fr 1.25fr; gap:10px; }
+  .grid3 { display:grid; grid-template-columns:1fr 1.15fr 1.15fr; gap:10px; }
+  .form-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(145px,1fr)); gap:8px; align-items:end; }
+  .field { display:flex; flex-direction:column; gap:3px; }
+  .field label { font-size:11px; color:var(--mu); font-weight:700; }
+  .tbl-wrap { background:var(--card); border:1px solid var(--line); border-radius:10px; overflow:auto; max-height:430px; }
+  table { width:100%; border-collapse:collapse; min-width:540px; }
+  th, td { padding:7px 9px; border-bottom:1px solid var(--line); text-align:left; font-size:12.5px; }
+  th { background:var(--head); position:sticky; top:0; cursor:pointer; white-space:nowrap; }
+  tbody tr:hover { background:rgba(47,111,237,0.14); cursor:pointer; }
+  .up { color:var(--up); font-weight:700; }
+  .dn { color:var(--dn); font-weight:700; }
+  .amb { color:var(--amb); font-weight:700; }
+  .mu { color:var(--mu); }
+  pre.det {
+    margin:0; font-family:Consolas,monospace; font-size:12px; white-space:pre-wrap; word-break:break-word;
+    background:var(--card); border:1px solid var(--line); border-radius:10px; padding:10px; max-height:540px; overflow:auto;
+  }
+  canvas.viz { width:100%; display:block; background:var(--card); border:1px solid var(--line); border-radius:10px; touch-action:none; }
+  .hidden { display:none !important; }
+  .modal-bg { position:fixed; inset:0; background:rgba(0,0,0,0.65); z-index:90; display:flex; align-items:center; justify-content:center; padding:12px; }
+  .modal { background:var(--card); border:1px solid var(--line); border-radius:12px; width:100%; max-width:580px; max-height:90vh; overflow-y:auto; padding:16px; }
+  .toast { position:fixed; bottom:18px; left:50%; transform:translateX(-50%); background:#0f172a; color:#fff; border:1px solid var(--acc); padding:9px 16px; border-radius:8px; font-weight:700; z-index:120; display:none; }
+  .marquee { background:var(--head); color:var(--mu); padding:6px 12px; font-size:12px; border-top:1px solid var(--line); text-align:center; margin-top:12px; }
+  @media (max-width:980px) { .grid2, .grid3 { grid-template-columns:1fr; } }
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">
+    <img src="data:image/png;base64,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" alt="Logo">
+    <span>Hung Nguyen Radar v3.1.0</span>
+    <span class="clock" id="lblClock"></span>
+  </div>
+  <div class="bar">
+    <select id="selEx" onchange="onExChange()">
+      <option value="binance">🟡 Binance</option>
+      <option value="bitget">🔵 Bitget</option>
+      <option value="okx">⚪ OKX</option>
+      <option value="demo">🧪 Demo Offline</option>
+    </select>
+    <button class="btn-gh btn-sm" onclick="openGithubModal()">☁️ GitHub Sync</button>
+    <button class="btn-ghost btn-sm" onclick="exportJsonState()">💾 Backup JSON</button>
+    <button class="btn-ghost btn-sm" onclick="document.getElementById('fileJson').click()">📥 Nạp JSON</button>
+    <input type="file" id="fileJson" accept=".json" class="hidden" onchange="importJsonState(event)">
+    <select id="selTheme" onchange="applyTheme(this.value)">
+      <option value="dark">🌑 Mặc định</option>
+      <option value="light">☀️ Sáng</option>
+      <option value="hacker">💻 Hacker</option>
+      <option value="binance">🟡 Binance</option>
+    </select>
+    <button class="btn-ghost btn-sm" id="btnLang" onclick="toggleLang()">🇻🇳 VI</button>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="panel bar">
+    <label class="mu">Mã:</label>
+    <input id="inpSyms" value="XAUUSDT,XAGUSDT,BTCUSDT" style="min-width:210px;flex:1">
+    <select id="selMode">
+      <option value="Scalping">Scalping (1m/5m)</option>
+      <option value="Day Trading" selected>Day Trading (15m/1h)</option>
+      <option value="Swing Trading">Swing Trading (4h/1d)</option>
+      <option value="All">All (1m–1d)</option>
+    </select>
+    <button class="btn-acc" onclick="runScan()">📡 Quét ngay</button>
+    <button class="btn-ghost" onclick="toggleFav(curSym)">★ Yêu thích</button>
+    <span id="lblStatus" class="mu" style="margin-left:auto">Sẵn sàng</span>
+  </div>
+
+  <div class="tabs">
+    <button class="tab active" onclick="switchTab('scan', this)">📡 Quét tín hiệu</button>
+    <button class="tab" onclick="switchTab('full', this)">🌐 Quét toàn bộ</button>
+    <button class="tab" onclick="switchTab('chart', this)">📈 Biểu đồ</button>
+    <button class="tab" onclick="switchTab('hm', this)">🔥 Heatmap thanh lý</button>
+    <button class="tab" onclick="switchTab('bt', this)">🧪 Backtest</button>
+    <button class="tab" onclick="switchTab('test', this)">💹 TEST lệnh</button>
+    <button class="tab" onclick="switchTab('dca', this)">📐 DCA</button>
+    <button class="tab" onclick="switchTab('news', this)">📰 Tin tức & Sự kiện</button>
+  </div>
+
+  <section id="tab-scan">
+    <div class="grid3">
+      <div>
+        <div class="tbl-wrap">
+          <table>
+            <thead><tr><th>Mã</th><th>Giá</th><th>Kết luận</th><th>Điểm</th><th>Khung</th></tr></thead>
+            <tbody id="scanBody"></tbody>
+          </table>
+        </div>
+      </div>
+      <div>
+        <pre class="det" id="planDetail">Chọn một mã hoặc bấm "Quét ngay" để phân tích chi tiết 5 khung (5m–1d)...</pre>
+      </div>
+      <div>
+        <div class="panel bar">
+          <b>Futures Radar (15m·1h·4h·1d)</b>
+          <button class="btn-acc btn-sm" onclick="runRadarBox()">Quét Radar</button>
+          <span id="radarStat" class="mu"></span>
+        </div>
+        <div class="tbl-wrap" style="max-height:200px;margin-bottom:8px;">
+          <table>
+            <thead><tr><th>Mã</th><th>Tín hiệu</th><th>Tăng %</th><th>Giá</th><th>15m 1h 4h 1d</th></tr></thead>
+            <tbody id="radarBody"></tbody>
+          </table>
+        </div>
+        <pre class="det" id="radarDetail" style="max-height:290px;">Chọn dòng bên trên để xem Bẫy giá / Phân kỳ RSI / Fib / Retest / TP-SL...</pre>
+      </div>
+    </div>
+  </section>
+
+  <section id="tab-full" class="hidden">
+    <div class="panel bar">
+      <label>Khung:</label>
+      <select id="fullTf"><option>5m</option><option>15m</option><option selected>1h</option><option>4h</option><option>1d</option></select>
+      <label>Vol 24h tối thiểu:</label>
+      <input id="fullMinVol" type="number" value="5000000" style="width:120px">
+      <button class="btn-acc" onclick="startFullScan()">🌐 Quét toàn bộ perp (Top 100)</button>
+      <button class="btn-dn" onclick="stopFull=true">⏹ Dừng</button>
+      <select id="fullFilterTrend" onchange="renderFullTable()"><option value="ALL">Tất cả xu hướng</option><option value="TANG">▲ Tăng</option><option value="GIAM">▼ Giảm</option><option value="DI NGANG">◆ Đi ngang</option></select>
+      <label><input type="checkbox" id="fullChkVol" onchange="renderFullTable()" style="min-height:auto"> Vol &gt;2×TB20</label>
+      <label><input type="checkbox" id="fullChkSig" onchange="renderFullTable()" style="min-height:auto"> Có tín hiệu</label>
+      <label><input type="checkbox" id="fullChkFav" onchange="renderFullTable()" style="min-height:auto"> ★ Yêu thích</label>
+      <span id="fullProg" class="mu"></span>
+    </div>
+    <div class="tbl-wrap">
+      <table>
+        <thead><tr><th>★</th><th>Mã</th><th>Giá</th><th>24h %</th><th>Vol 24h</th><th>Vol/TB20</th><th>Xu hướng</th><th>Điểm</th><th>Kết luận</th></tr></thead>
+        <tbody id="fullBody"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="tab-chart" class="hidden">
+    <div class="panel bar">
+      <input id="chartSym" value="BTCUSDT" style="width:120px">
+      <select id="chartTf" onchange="loadChart()">
+        <option>5m</option><option>15m</option><option selected>1h</option><option>4h</option><option>1d</option><option>3d</option><option>1w</option>
+      </select>
+      <label><input type="checkbox" id="cEMA20" checked onchange="drawChart()" style="min-height:auto"> EMA20</label>
+      <label><input type="checkbox" id="cEMA50" checked onchange="drawChart()" style="min-height:auto"> EMA50</label>
+      <label><input type="checkbox" id="cEMA200" onchange="drawChart()" style="min-height:auto"> EMA200</label>
+      <label><input type="checkbox" id="cVWAP" checked onchange="drawChart()" style="min-height:auto"> VWAP</label>
+      <label><input type="checkbox" id="cBB" onchange="drawChart()" style="min-height:auto"> BB</label>
+      <label><input type="checkbox" id="cRSI" onchange="drawChart()" style="min-height:auto"> RSI</label>
+      <button class="btn-acc btn-sm" onclick="loadChart()">🔄 Tải biểu đồ</button>
+      <span id="chartTrend" class="mu" style="font-weight:700"></span>
+    </div>
+    <div id="chartHoverInfo" class="panel mu" style="font-family:Consolas,monospace;padding:6px 10px;">Rê chuột / chạm vào biểu đồ để đọc Mở / Cao / Thấp / Đóng / Vol / RSI</div>
+    <canvas id="chartCanvas" class="viz" height="440"></canvas>
+  </section>
+
+  <section id="tab-hm" class="hidden">
+    <div class="panel bar">
+      <input id="hmSym" value="BTCUSDT" style="width:120px">
+      <select id="hmTf" onchange="loadHeatmap()"><option>5m</option><option>15m</option><option selected>1h</option><option>4h</option><option>1d</option></select>
+      <button class="btn-acc btn-sm" onclick="loadHeatmap()">🔥 Cập nhật Heatmap</button>
+      <span id="hmStat" class="mu">Luồng thanh lý: chờ kết nối</span>
+    </div>
+    <div class="tbl-wrap" style="max-height:140px;margin-bottom:8px;">
+      <table><thead><tr><th>Giờ</th><th>Mã</th><th>Bên bị thanh lý</th><th>Giá trị (USD)</th></tr></thead><tbody id="liqBody"></tbody></table>
+    </div>
+    <canvas id="hmCanvas" class="viz" height="400"></canvas>
+  </section>
+
+  <section id="tab-bt" class="hidden">
+    <div class="panel bar">
+      <input id="btSym" value="BTCUSDT" style="width:120px">
+      <select id="btTf"><option>5m</option><option selected>15m</option><option>1h</option><option>4h</option><option>1d</option></select>
+      <label>Ngưỡng điểm:</label><input id="btThr" type="number" step="0.5" value="2.5" style="width:70px">
+      <label><input type="checkbox" id="btPlan" checked style="min-height:auto"> Quy tắc kế hoạch (SL đỉnh/đáy, TP1 1.5R / TP2 2.5R)</label>
+      <button class="btn-acc" onclick="runBacktest()">▶ Chạy Backtest</button>
+      <span id="btRes" class="mu" style="font-weight:700"></span>
+    </div>
+    <canvas id="btCanvas" class="viz" height="360"></canvas>
+  </section>
+
+  <section id="tab-test" class="hidden">
+    <div class="grid2">
+      <div class="panel">
+        <div class="bar" style="justify-content:space-between;margin-bottom:8px;">
+          <b>Tài khoản giả lập (Giá thật)</b>
+          <div>
+            <input id="tCapInp" type="number" style="width:110px" onchange="tCapChanged()">
+            <button class="btn-dn btn-sm" onclick="tReset()">Đặt lại</button>
+          </div>
+        </div>
+        <div id="tBalLbl" class="mu" style="margin-bottom:8px;"></div>
+        <div class="form-grid">
+          <div class="field"><label>Cặp</label><input id="tSym" value="BTCUSDT" onchange="tFetchOneMark()"></div>
+          <div class="field"><label>Chế độ</label><select id="tMode"><option>Cross</option><option>Isolated</option></select></div>
+          <div class="field"><label>Đòn bẩy x</label><input id="tLv" type="number" value="10"></div>
+          <div class="field"><label>Loại lệnh</label><select id="tType" onchange="tToggleLimit()"><option>Market</option><option>Limit</option></select></div>
+          <div class="field hidden" id="tLimitBox"><label>Giá Limit</label><input id="tLimitPx" type="number" step="any"></div>
+          <div class="field"><label>Margin (USDT)</label><input id="tMargin" type="number" step="any" placeholder="100"></div>
+          <div class="field"><label>TP (tuỳ chọn)</label><input id="tTp" type="number" step="any"></div>
+          <div class="field"><label>SL (tuỳ chọn)</label><input id="tSl" type="number" step="any"></div>
+        </div>
+        <div class="bar" style="margin-top:8px;">
+          <button class="btn-ghost btn-sm" onclick="tPct(25)">25%</button>
+          <button class="btn-ghost btn-sm" onclick="tPct(50)">50%</button>
+          <button class="btn-ghost btn-sm" onclick="tPct(75)">75%</button>
+          <button class="btn-ghost btn-sm" onclick="tPct(100)">100%</button>
+          <span id="tMkLbl" class="mu"></span>
+        </div>
+        <div class="bar" style="margin-top:10px;">
+          <button class="btn-up" style="flex:1;justify-content:center" onclick="tOpen('L')">▲ Mở LONG</button>
+          <button class="btn-dn" style="flex:1;justify-content:center" onclick="tOpen('S')">▼ Mở SHORT</button>
+        </div>
+      </div>
+      <div>
+        <div class="panel bar">
+          <button class="tab active btn-sm" onclick="tSeg='pos';renderTest()">Vị thế (<span id="cntPos">0</span>)</button>
+          <button class="tab btn-sm" onclick="tSeg='pend';renderTest()">Lệnh chờ (<span id="cntPend">0</span>)</button>
+          <button class="tab btn-sm" onclick="tSeg='hist';renderTest()">Lịch sử</button>
+          <button class="btn-dn btn-sm" style="margin-left:auto" onclick="tCloseAll()">Đóng tất cả</button>
+        </div>
+        <div class="tbl-wrap">
+          <table><thead id="testHead"></thead><tbody id="testBody"></tbody></table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="tab-dca" class="hidden">
+    <div class="grid2">
+      <div class="panel">
+        <div class="bar" style="justify-content:space-between;margin-bottom:8px;">
+          <b>Kế hoạch DCA nhiều cặp</b>
+          <div class="bar">
+            <button class="btn-ghost btn-sm" onclick="dAddRow()">+ Thêm cặp</button>
+            <button class="btn-acc btn-sm" onclick="dRunPlan()">📐 Phân tích DCA</button>
+            <button class="btn-up btn-sm" onclick="dRunPortfolio()">📊 DCA vị thế TEST</button>
+          </div>
+        </div>
+        <div id="dcaRows"></div>
+      </div>
+      <div>
+        <div class="panel bar">
+          <button class="btn-acc btn-sm" onclick="dPlaceRows()">💹 Đặt lệnh DCA vào tab TEST</button>
+        </div>
+        <pre class="det" id="dcaOut">Nhập cặp, margin, đòn bẩy rồi bấm "Phân tích DCA"...</pre>
+      </div>
+    </div>
+  </section>
+
+  <section id="tab-news" class="hidden">
+    <div class="panel bar">
+      <button class="btn-acc btn-sm" onclick="refreshNewsWeb()">🔄 Làm mới lịch & tin tức</button>
+      <span id="newsStat" class="mu">Dữ liệu từ bộ nhớ / đồng bộ Desktop</span>
+    </div>
+    <div class="grid2">
+      <div class="tbl-wrap">
+        <table><thead><tr><th>Giờ</th><th>QG</th><th>Sự kiện</th><th>Mức</th><th>Dự báo</th><th>Thực tế</th></tr></thead><tbody id="calBody"></tbody></table>
+      </div>
+      <div class="tbl-wrap">
+        <table><thead><tr><th>Giờ</th><th>Nguồn</th><th>Nhóm</th><th>Tiêu đề</th></tr></thead><tbody id="newsBody"></tbody></table>
+      </div>
+    </div>
+  </section>
+</div>
+
+<div class="marquee">Nguyễn Văn Hùng © Investment Radar Version 3.1.0 Web Edition - Cross-Platform (Windows / macOS / iOS / Android) - GitHub Sync Ready</div>
+<div id="modalRoot" class="modal-bg hidden" onclick="if(event.target===this) closeModal()"><div class="modal" id="modalBox"></div></div>
+<div id="toast" class="toast"></div>
+
+<script>
+const EMBEDDED_STATE = {"app_name": "Hung Nguyen Radar", "app_version": "3.1.0", "exported_at": "2026-11-18T15:17:25", "cfg": {"syms": "ANTUSDT, ", "mode": "Day Trading", "every": "0", "demo": false, "sound": false, "ex": "binance", "plan_cfg": {"ok": {"c": {"on": true, "color": "#00e5ff", "ms": 250, "burst": 6, "static": false}, "a": {"on": true, "color": "#00e5ff", "ms": 250, "burst": 6, "static": false}}, "bad": {"c": {"on": true, "color": "#ff1744", "ms": 250, "burst": 8, "static": true}, "a": {"on": true, "color": "#ff1744", "ms": 250, "burst": 8, "static": true}}, "res": {"c": {"on": true, "color": "#ffd400", "ms": 250, "burst": 6, "static": false}, "a": {"on": true, "color": "#ffd400", "ms": 250, "burst": 6, "static": false}}, "sup": {"c": {"on": true, "color": "#e040fb", "ms": 250, "burst": 6, "static": false}, "a": {"on": true, "color": "#e040fb", "ms": 250, "burst": 6, "static": false}}}, "tp_fmt": {"on": true, "bold": true, "size": 12, "long": "#00e676", "short": "#ff1744", "blink": false, "ms": 500, "bg": true, "bg_long": "#00e676", "bg_short": "#ff1744", "alpha": 100, "fg_auto": true, "fgb_long": "#000000", "fgb_short": "#ffffff"}, "theme": "Hacker", "layout": "Tab trên", "lang": "Tiếng Việt", "log": ["23:56:11 ANTHROPICUSDT → NGHIENG LONG (+3.0) @ 1393.2", "00:05:45 AAPLUSDT → NGHIENG LONG (+3.8) @ 354.55", "00:05:45 CRCLUSDT → NGHIENG LONG (+3.2) @ 68.18", "00:05:45 GOOGLUSDT → NGHIENG LONG (+3.8) @ 293.71", "14:45:42 NVDAUSDT → NGHIENG SHORT (-3.0) @ 161.03", "14:45:42 SOLUSDT → NGHIENG SHORT (-4.8) @ 82.75", "14:45:42 ETHUSDT → NGHIENG SHORT (-4.8) @ 2046.9", "14:45:42 BNBUSDT → NGHIENG SHORT (-4.0) @ 673.86", "14:45:42 BTCUSDC → NGHIENG SHORT (-3.5) @ 73452", "14:45:43 CRCLUSDT → NGHIENG SHORT (-4.2) @ 65.47", "23:03:29 AAPLUSDT → NGHIENG LONG (+3.8) @ 358.75", "23:03:29 BTCUSDT → NGHIENG SHORT (-3.2) @ 71677", "23:03:29 AMDUSDT → NGHIENG LONG (+4.5) @ 584.53", "23:03:29 BZUSDT → NGHIENG LONG (+3.0) @ 91.75", "23:03:29 GOOGLUSDT → NGHIENG LONG (+3.5) @ 297.89", "23:03:29 INITUSDT → NGHIENG SHORT (-3.0) @ 0.12111", "23:03:29 INTCUSDT → NGHIENG LONG (+3.2) @ 62.49", "15:24:59 ETHUSDT → NGHIENG SHORT (-4.0) @ 1935.2", "15:24:59 BTCUSDC → NGHIENG SHORT (-4.5) @ 68680", "15:24:59 CLUSDT → NGHIENG LONG (+3.8) @ 87.82", "15:24:59 CRCLUSDT → NGHIENG SHORT (-3.0) @ 62.8", "15:24:59 ETHUSDC → NGHIENG SHORT (-4.5) @ 1933.6", "15:24:59 IBMUSDT → NGHIENG SHORT (-3.5) @ 244.76", "17:30:30 AAPLUSDT → NGHIENG LONG (+4.0) @ 357.19", "17:30:30 AMZNUSDT → NGHIENG LONG (+5.0) @ 269.55", "17:30:30 ANTHROPICUSDT → NGHIENG SHORT (-3.5) @ 1358.9", "17:30:30 CSOPSKHYNIX2LUSDT → NGHIENG SHORT (-4.0) @ 2.044", "19:26:54 BZUSDT → NGHIENG LONG (+4.5) @ 93.91", "19:26:54 DELLUSDT → NGHIENG LONG (+3.0) @ 374.86", "19:26:54 GOOGLUSDT → NGHIENG LONG (+5.8) @ 302.67", "19:27:07 INITUSDT → NGHIENG SHORT (-3.0) @ 0.11447", "07:27:56 IBMUSDT → NGHIENG SHORT (-3.5) @ 232.42", "07:27:57 NEARUSDT → NGHIENG LONG (+3.0) @ 3.373", "07:27:58 XAUUSDT → NGHIENG SHORT (-4.5) @ 3846.5"], "fav": ["AAPLUSDT", "AMDUSDT", "AMZNUSDT", "ANTHROPICUSDT", "ANTUSDT", "BTCUSDC", "BTCUSDT", "BZUSDT", "CLUSDT", "CRCLUSDT", "CSOPSKHYNIX2LUSDT", "DELLUSDT", "ETHUSDC", "ETHUSDT", "GOOGLUSDT", "IBMUSDT", "INITUSDT", "INTCUSDT", "KORUUSDT", "MSTRUSDT", "NEARUSDC", "NEARUSDT", "NVDAUSDT", "ORCLUSDT", "QCOMUSDT", "QQQUSDT", "SAMSUNGUSDT", "SKDDUSDT", "SKHYNIXUSDT", "SKHYUSDT", "SNDKUSDT", "SOLUSDT", "SOXLUSDT", "SOXSUSDT", "SPCXUSDT", "SPYUSDT", "TSLAUSDT", "WDCUSDT", "XAGUSDT", "XAUUSDT", "XRPUSDT", "ZHONGJIUSDT"], "blink": true, "blink_notify": false, "clock12": false, "blink_l": true, "blink_r": true, "blink_c": true, "blink_zones": {"l": {"color": "", "alpha": 73, "ms": 600, "multi": true, "colors": ["#ffb74d", "#ff1744", "#2979ff", "#ffd400", "#00e676", "#b24dff", "#ffffff", "#ffd400"], "alt": false, "alt_ms": 400, "static": true}, "c": {"color": "", "alpha": 100, "ms": 600, "multi": false, "colors": ["#ffb74d", "#ff1744", "#2979ff"], "alt": false, "alt_ms": 400, "static": false}, "r": {"color": "", "alpha": 0, "ms": 600, "multi": true, "colors": ["#ffb74d", "#ff1744", "#2979ff", "#ffd400", "#00e676", "#b24dff", "#ffffff", "#ff1744"], "alt": false, "alt_ms": 400, "static": false}, "a": {"color": "", "alpha": 100, "ms": 600, "multi": false, "colors": ["#ffb74d", "#ff1744", "#2979ff"], "alt": false, "alt_ms": 400, "static": false}}, "vpn": false, "vpn_cache": [], "vpn_custom": []}, "test": {"acc": {"cap": 1000.0, "real": 0.0, "ts": 1794948913393.4985}, "pos": [], "pend": [], "hist": [], "brk": {}, "dr": [{"s": "BTCUSDT", "d": "L", "lv": "10", "m": "100", "e": "", "n": "3", "mu": "1.5", "z": "mu", "U": ""}], "dsrc": "man", "dcap": "1000"}, "news_cache": {"cal": [], "news": []}};
+const EMBEDDED_GH = {"owner": "donnguyen66793-sketch", "repo": "HungNguyenRadar_Web", "branch": "main", "data_path": "hung_nguyen_radar_sync.json", "token": ""};
+const STATE_KEY = "hung_nguyen_radar_web_state_v310";
+const GH_KEY = "hung_nguyen_radar_web_gh_v310";
+
+const DEFAULT_STATE = {
+  app_name: "Hung Nguyen Radar",
+  app_version: "3.1.0",
+  exported_at: "",
+  cfg: { syms: "XAUUSDT,XAGUSDT,BTCUSDT", mode: "Day Trading", ex: "binance", theme: "Mặc định", lang: "Tiếng Việt", fav: [] },
+  test: { acc: { cap: 1000, real: 0, ts: Date.now() }, pos: [], pend: [], hist: [], brk: {}, dr: [{ s:"BTCUSDT", d:"L", lv:"10", m:"100", e:"", n:"3", mu:"1.5", z:"mu", U:"" }], dsrc:"man", dcap:"1000" },
+  news_cache: { cal: [], news: [] }
+};
+
+let state = loadState();
+let ghCfg = loadGhCfg();
+let curSym = (state.cfg.syms || "BTCUSDT").split(",")[0].trim().toUpperCase() || "BTCUSDT";
+let scanResults = {}, radarResults = {}, fullRows = [];
+let fullStop = false, chartData = null, hmData = null, liqEvents = [];
+let tSeg = "pos", tMarks = {}, lastDcaPlans = [];
+
+function loadState() {
+  try {
+    const raw = localStorage.getItem(STATE_KEY);
+    if (raw) return normalizeState(JSON.parse(raw));
+  } catch (e) {}
+  if (EMBEDDED_STATE && typeof EMBEDDED_STATE === "object") {
+    const s = normalizeState(EMBEDDED_STATE);
+    localStorage.setItem(STATE_KEY, JSON.stringify(s));
+    return s;
+  }
+  return normalizeState(JSON.parse(JSON.stringify(DEFAULT_STATE)));
+}
+function normalizeState(s) {
+  const b = JSON.parse(JSON.stringify(DEFAULT_STATE));
+  if (s.cfg) b.cfg = Object.assign({}, b.cfg, s.cfg);
+  if (s.test) b.test = Object.assign({}, b.test, s.test);
+  if (!b.test.acc) b.test.acc = { cap: 1000, real: 0, ts: Date.now() };
+  if (!Array.isArray(b.test.dr) || !b.test.dr.length) b.test.dr = JSON.parse(JSON.stringify(DEFAULT_STATE.test.dr));
+  if (s.news_cache) b.news_cache = s.news_cache;
+  b.exported_at = s.exported_at || new Date().toISOString();
+  return b;
+}
+function saveState() {
+  state.exported_at = new Date().toISOString();
+  localStorage.setItem(STATE_KEY, JSON.stringify(state));
+}
+function loadGhCfg() {
+  let c = { owner:"", repo:"", branch:"main", data_path:"hung_nguyen_radar_sync.json", token:"" };
+  try { const r = localStorage.getItem(GH_KEY); if (r) c = Object.assign(c, JSON.parse(r)); } catch (e) {}
+  if (EMBEDDED_GH && EMBEDDED_GH.owner && !c.owner) c = Object.assign({}, c, EMBEDDED_GH);
+  return c;
+}
+function saveGhCfg() { localStorage.setItem(GH_KEY, JSON.stringify(ghCfg)); }
+
+function toast(msg) {
+  const el = document.getElementById("toast"); el.textContent = msg; el.style.display = "block";
+  clearTimeout(el._t); el._t = setTimeout(() => el.style.display = "none", 2800);
+}
+function esc(s) { return String(s??"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
+function fpx(n) { n = Number(n); if (!isFinite(n)) return "-"; return n.toLocaleString("en-US", { maximumFractionDigits: n < 1 ? 5 : n < 10 ? 4 : 2 }); }
+function fnum(n, d=2) { n = Number(n); return isFinite(n) ? n.toLocaleString("en-US", { minimumFractionDigits:d, maximumFractionDigits:d }) : "-"; }
+function normSym(s) { s = (s||"").trim().toUpperCase(); return !s ? "" : (s.endsWith("USDT")||s.endsWith("USDC") ? s : s + "USDT"); }
+
+const TF_SEC = { "1m":60,"5m":300,"15m":900,"1h":3600,"4h":14400,"1d":86400,"3d":259200,"1w":604800 };
+const BG_TF = { "1m":"1m","5m":"5m","15m":"15m","1h":"1H","4h":"4H","1d":"1Dutc" };
+const OKX_TF = { "1m":"1m","5m":"5m","15m":"15m","1h":"1H","4h":"4H","1d":"1Dutc" };
+
+function demoKlines(sym, iv, lim=300) {
+  const sec = (TF_SEC[iv]||3600)*1000, now = Date.now(), out = [];
+  let p = sym.includes("BTC") ? 90000 : sym.includes("XAU") ? 2700 : 100;
+  for (let i=lim; i>0; i--) {
+    const r = (Math.random()-0.495)*0.012, o = p, c = p*Math.exp(r);
+    const h = Math.max(o,c)*(1+Math.random()*0.004), l = Math.min(o,c)*(1-Math.random()*0.004);
+    const v = 500 + Math.random()*1500, tb = v*(0.4 + Math.random()*0.25);
+    out.push({ t: now - i*sec, o, h, l, c, v, qv: v*c, tb });
+    p = c;
+  }
+  return out;
+}
+
+async function fetchKlines(sym, iv, lim=300) {
+  const ex = document.getElementById("selEx").value;
+  if (ex === "demo") return demoKlines(sym, iv, lim);
+  try {
+    if (ex === "binance") {
+      const r = await fetch(`https://fapi.binance.com/fapi/v1/klines?symbol=${encodeURIComponent(sym)}&interval=${iv}&limit=${lim}`);
+      if (!r.ok) throw new Error("Binance " + r.status);
+      const raw = await r.json();
+      return raw.map(x => ({ t:+x[0], o:+x[1], h:+x[2], l:+x[3], c:+x[4], v:+x[5], qv:+x[7], tb:+x[9] }));
+    }
+    if (ex === "bitget") {
+      const g = BG_TF[iv] || "1H";
+      const r = await fetch(`https://api.bitget.com/api/v2/mix/market/candles?symbol=${encodeURIComponent(sym)}&productType=USDT-FUTURES&granularity=${g}&limit=${Math.min(lim,1000)}`);
+      const j = await r.json();
+      if (j.code !== "00000") throw new Error(j.msg);
+      return j.data.map(x => { const c=+x[4], h=+x[2], l=+x[3], v=+x[5]; return { t:+x[0], o:+x[1], h, l, c, v, qv:+(x[6]||v*c), tb: h>l?v*(c-l)/(h-l):v*0.5 }; }).sort((a,b)=>a.t-b.t);
+    }
+    if (ex === "okx") {
+      const base = sym.replace(/(USDT|USDC)$/,""), qt = sym.endsWith("USDC")?"USDC":"USDT", inst = `${base}-${qt}-SWAP`;
+      const r = await fetch(`https://www.okx.com/api/v5/market/candles?instId=${encodeURIComponent(inst)}&bar=${OKX_TF[iv]||"1H"}&limit=${Math.min(lim,300)}`);
+      const j = await r.json();
+      if (j.code !== "0") throw new Error(j.msg);
+      return j.data.map(x => { const c=+x[4], h=+x[2], l=+x[3], v=+(x[6]||x[5]); return { t:+x[0], o:+x[1], h, l, c, v, qv:+(x[7]||v*c), tb: h>l?v*(c-l)/(h-l):v*0.5 }; }).sort((a,b)=>a.t-b.t);
+    }
+  } catch (e) {
+    if (ex === "binance") {
+      try {
+        const r = await fetch(`https://fapi1.binance.com/fapi/v1/klines?symbol=${encodeURIComponent(sym)}&interval=${iv}&limit=${lim}`);
+        if (r.ok) { const raw = await r.json(); return raw.map(x => ({ t:+x[0], o:+x[1], h:+x[2], l:+x[3], c:+x[4], v:+x[5], qv:+x[7], tb:+x[9] })); }
+      } catch (_) {}
+    }
+    throw e;
+  }
+}
+
+async function fetchTickers() {
+  const ex = document.getElementById("selEx").value;
+  if (ex === "demo") return ["BTCUSDT","ETHUSDT","SOLUSDT","BNBUSDT","XRPUSDT","XAUUSDT","XAGUSDT","DOGEUSDT","SUIUSDT","TONUSDT"].map((s,i)=>({ sym:s, qv:1e9/(i+1), chg:(Math.random()-0.5)*8 }));
+  if (ex === "bitget") {
+    const j = await (await fetch("https://api.bitget.com/api/v2/mix/market/tickers?productType=USDT-FUTURES")).json();
+    return (j.data||[]).map(x => ({ sym:x.symbol, qv:+(x.quoteVolume||x.usdtVolume||0), chg:(+x.change24h||0)*100 }));
+  }
+  const arr = await (await fetch("https://fapi.binance.com/fapi/v1/ticker/24hr")).json();
+  return arr.filter(x => x.symbol.endsWith("USDT") && !x.symbol.includes("_")).map(x => ({ sym:x.symbol, qv:+x.quoteVolume, chg:+x.priceChangePercent }));
+}
+
+async function fetchMarkPrice(sym) {
+  const ex = document.getElementById("selEx").value;
+  if (ex === "demo") return demoKlines(sym, "1m", 2)[1].c;
+  const r = await fetch(`https://fapi.binance.com/fapi/v1/premiumIndex?symbol=${encodeURIComponent(sym)}`);
+  if (r.ok) return +(await r.json()).markPrice;
+  const kl = await fetchKlines(sym, "1m", 2);
+  return kl[kl.length-1].c;
+}
+
+function emaArr(arr, p) {
+  const k = 2/(p+1), out = new Array(arr.length); let e = arr[0];
+  for (let i=0;i<arr.length;i++) { e = arr[i]*k + e*(1-k); out[i] = e; }
+  return out;
+}
+function addInd(kl) {
+  const n = kl.length, C = kl.map(x=>x.c), H = kl.map(x=>x.h), L = kl.map(x=>x.l), V = kl.map(x=>x.v);
+  const e20 = emaArr(C, 20), e50 = emaArr(C, 50), e200 = emaArr(C, 200);
+  const rsi = new Array(n).fill(50), atr = new Array(n).fill(0), adx = new Array(n).fill(20);
+  let ag=0, al=0, trA=0, pdA=0, mdA=0, dxArr=[];
+  for (let i=1;i<n;i++) {
+    const d = C[i]-C[i-1], g = Math.max(d,0), l = Math.max(-d,0);
+    ag = (ag*13 + g)/14; al = (al*13 + l)/14;
+    rsi[i] = al === 0 ? 100 : 100 - 100/(1 + ag/al);
+    const tr = Math.max(H[i]-L[i], Math.abs(H[i]-C[i-1]), Math.abs(L[i]-C[i-1]));
+    const up = H[i]-H[i-1], dn = L[i-1]-L[i];
+    const pd = (up>dn && up>0)?up:0, md = (dn>up && dn>0)?dn:0;
+    trA = (trA*13+tr)/14; pdA = (pdA*13+pd)/14; mdA = (mdA*13+md)/14; atr[i] = trA;
+    const pdi = trA?100*pdA/trA:0, mdi = trA?100*mdA/trA:0, dx = (pdi+mdi)?100*Math.abs(pdi-mdi)/(pdi+mdi):0;
+    dxArr.push(dx); adx[i] = dxArr.length<14 ? dx : (adx[i-1]*13+dx)/14;
+  }
+  const vwap = new Array(n), cvd = new Array(n), volZ = new Array(n).fill(0);
+  let curDay = "", sv=0, stpv=0, cumCvd=0;
+  for (let i=0;i<n;i++) {
+    const day = new Date(kl[i].t).toISOString().slice(0,10);
+    if (day !== curDay) { curDay = day; sv = 0; stpv = 0; }
+    const tp = (H[i]+L[i]+C[i])/3; stpv += tp*V[i]; sv += V[i]; vwap[i] = sv ? stpv/sv : C[i];
+    const delta = 2*kl[i].tb - V[i]; cumCvd += delta; cvd[i] = cumCvd;
+    if (i >= 50) {
+      const win = V.slice(i-49, i+1), m = win.reduce((a,b)=>a+b,0)/50;
+      const sd = Math.sqrt(win.reduce((a,b)=>a+(b-m)*(b-m),0)/50) || 1; volZ[i] = (V[i]-m)/sd;
+    }
+  }
+  return kl.map((x,i)=>Object.assign({}, x, { e20:e20[i], e50:e50[i], e200:e200[i], rsi:rsi[i], atr:atr[i], adx:adx[i], vwap:vwap[i], cvd:cvd[i], delta:2*x.tb-x.v, volZ:volZ[i] }));
+}
+
+function analyzeTf(kl, lb=24) {
+  const d = addInd(kl).slice(0, -1), last = d[d.length-1];
+  let score = 0, why = [], trend = "DI NGANG";
+  if (last.c > last.e50 && last.e50 > last.e200 && last.e20 > last.e50) { trend="TANG"; score+=2; why.push("EMA20>50>200"); }
+  else if (last.c < last.e50 && last.e50 < last.e200 && last.e20 < last.e50) { trend="GIAM"; score-=2; why.push("EMA20<50<200"); }
+  if (last.adx > 25 && trend !== "DI NGANG") { score += (trend==="TANG"?0.5:-0.5); why.push(`ADX ${last.adx.toFixed(0)}`); }
+  if (last.c > last.vwap) { score += 1; why.push("Giá > VWAP"); } else { score -= 1; why.push("Giá < VWAP"); }
+  if (last.rsi > 75) score -= 0.5; else if (last.rsi < 25) score += 0.5; else if (last.rsi > 55) score += 0.5; else if (last.rsi < 45) score -= 0.5;
+  const rec = d.slice(-20), tv = rec.reduce((a,b)=>a+b.v,0)||1, imb = rec.reduce((a,b)=>a+b.delta,0)/tv;
+  if (imb > 0.08) { score += 1; why.push("Taker mua chủ động"); } else if (imb < -0.08) { score -= 1; why.push("Taker bán chủ động"); }
+  if (last.volZ > 2) { const dir = last.c > last.o ? 1 : -1; score += 0.5*dir; why.push("Vol đột biến"); }
+  for (let k=1;k<=3;k++) {
+    if (d.length < lb+k+2) continue;
+    const bar = d[d.length-k], prior = d.slice(d.length-k-lb-1, d.length-k);
+    const ph = Math.max(...prior.map(x=>x.h)), pl = Math.min(...prior.map(x=>x.l));
+    if (bar.l < pl && bar.c > pl) { score += 1.5; why.push(`Quét đáy ${fpx(pl)}`); break; }
+    if (bar.h > ph && bar.c < ph) { score -= 1.5; why.push(`Quét đỉnh ${fpx(ph)}`); break; }
+  }
+  return { trend, score, why, close:last.c, atr:last.atr, rsi:last.rsi, adx:last.adx, vwap:last.vwap, df:d };
+}
+
+const MODE_TFS = { "Scalping":["1m","5m"], "Day Trading":["15m","1h"], "Swing Trading":["4h","1d"], "All":["1m","5m","15m","1h","4h","1d"] };
+
+async function runScan() {
+  const syms = document.getElementById("inpSyms").value.split(/[,\s]+/).map(normSym).filter(Boolean);
+  const favs = state.cfg.fav || [], all = [...new Set([...syms, ...favs])];
+  state.cfg.syms = syms.join(","); saveState();
+  const mode = document.getElementById("selMode").value, tfs = MODE_TFS[mode] || ["15m","1h"];
+  document.getElementById("lblStatus").textContent = `Đang quét ${all.length} mã...`;
+  const tbody = document.getElementById("scanBody"); tbody.innerHTML = "";
+  for (const sym of all) {
+    try {
+      const raws = await Promise.all(tfs.map(tf => fetchKlines(sym, tf, 260)));
+      const per = {}; tfs.forEach((tf,i)=> per[tf] = analyzeTf(raws[i]));
+      const tech = Object.values(per).reduce((a,b)=>a+b.score,0)/tfs.length;
+      const verdict = tech>=2.5 ? "NGHIÊNG LONG" : tech<=-2.5 ? "NGHIÊNG SHORT" : "TRUNG LẬP", px = per[tfs[0]].close;
+      scanResults[sym] = { sym, per, total:tech, verdict, px };
+      const cls = verdict.includes("LONG")?"up":verdict.includes("SHORT")?"dn":"mu";
+      const trStr = tfs.map(tf=>`${tf}:${per[tf].trend==="TANG"?"▲":per[tf].trend==="GIAM"?"▼":"◆"}`).join(" ");
+      tbody.innerHTML += `<tr onclick="selectSym('${sym}')"><td>${favs.includes(sym)?"★ ":""}<b>${sym}</b></td><td>${fpx(px)}</td><td class="${cls}">${verdict}</td><td class="${cls}">${tech>=0?"+":""}${tech.toFixed(1)}</td><td>${trStr}</td></tr>`;
+    } catch (e) { tbody.innerHTML += `<tr><td>${sym}</td><td colspan="4" class="dn">${esc(e.message)}</td></tr>`; }
+  }
+  document.getElementById("lblStatus").textContent = "Cập nhật " + new Date().toLocaleTimeString();
+  if (all[0]) selectSym(all[0]);
+}
+
+async function selectSym(sym) {
+  curSym = sym;
+  document.getElementById("chartSym").value = sym; document.getElementById("hmSym").value = sym; document.getElementById("btSym").value = sym;
+  const det = document.getElementById("planDetail"); det.textContent = `Đang phân tích đa khung 5m–1d cho ${sym}...`;
+  try {
+    const tfs = ["5m","15m","1h","4h","1d"], raws = await Promise.all(tfs.map(tf => fetchKlines(sym, tf, 260)));
+    const A = {}; tfs.forEach((tf,i)=> A[tf] = analyzeTf(raws[i]));
+    const px = raws[0][raws[0].length-1].c, lines = [`${sym} · Giá hiện tại ${fpx(px)}`, "", "XU HƯỚNG THEO KHUNG"];
+    tfs.forEach(tf => { const a = A[tf], tn = a.trend==="TANG"?"▲ TĂNG":a.trend==="GIAM"?"▼ GIẢM":"◆ ĐI NGANG"; lines.push(`  ${tf.padStart(3)}  ${tn.padEnd(10)} điểm ${a.score>=0?"+":""}${a.score.toFixed(1)} · RSI ${a.rsi.toFixed(0)} · ADX ${a.adx.toFixed(0)} · ${a.why.join(", ")}`); });
+    lines.push("", "KẾ HOẠCH THAM KHẢO (Scalp / Intraday / Swing)");
+    [["SCALP",["5m","15m"]],["INTRADAY",["15m","1h"]],["SWING",["4h","1d"]]].forEach(([st, pair]) => {
+      const sc = (A[pair[0]].score + A[pair[1]].score)/2, p = A[pair[0]], dr = sc>=2?1:sc<=-2?-1:0;
+      if (!dr) lines.push(`  ${st} (${pair.join("/")}) · điểm ${sc.toFixed(1)} → CHỜ`);
+      else {
+        const risk = Math.max(p.atr, 0.002*px), sl = px - dr*1.5*risk, tp1 = px + dr*1.5*risk, tp2 = px + dr*2.5*risk;
+        lines.push(`  ${st} (${pair.join("/")}) · điểm ${sc>=0?"+":""}${sc.toFixed(1)} → ${dr>0?"LONG":"SHORT"}`);
+        lines.push(`     Vào: ${fpx(px)} · SL: ${fpx(sl)} · TP1: ${fpx(tp1)} · TP2: ${fpx(tp2)}`);
+      }
+    });
+    det.textContent = lines.join("\n");
+  } catch (e) { det.textContent = "Lỗi phân tích: " + e.message; }
+}
+
+function toggleFav(sym) {
+  if (!sym) return;
+  const f = new Set(state.cfg.fav || []); if (f.has(sym)) f.delete(sym); else f.add(sym);
+  state.cfg.fav = [...f]; saveState(); toast(f.has(sym) ? `★ Đã thêm ${sym}` : `☆ Đã bỏ ${sym}`); runScan();
+}
+
+async function runRadarBox() {
+  const syms = [...new Set([...document.getElementById("inpSyms").value.split(/[,\s]+/).map(normSym).filter(Boolean), ...(state.cfg.fav||[])])];
+  const st = document.getElementById("radarStat"), body = document.getElementById("radarBody");
+  st.textContent = `Đang quét ${syms.length} mã...`; body.innerHTML = "";
+  const tfs = ["15m","1h","4h","1d"], w = { "15m":1, "1h":2, "4h":3, "1d":3 };
+  for (const sym of syms) {
+    try {
+      const raws = await Promise.all(tfs.map(tf => fetchKlines(sym, tf, 260)));
+      const res = {}; tfs.forEach((tf,i)=> res[tf] = analyzeTf(raws[i]));
+      const agg = tfs.reduce((s,tf)=> s + w[tf]*Math.max(-4,Math.min(4,res[tf].score)), 0) / 9;
+      const side = agg>=1.2?"LONG":agg<=-1.2?"SHORT":"CHỜ", prob = Math.max(5,Math.min(95,Math.round(50+agg*10))), px = res["1h"].close;
+      radarResults[sym] = { sym, px, res, agg, side, prob };
+      const trs = tfs.map(tf=>`${tf}:${res[tf].trend==="TANG"?"▲":res[tf].trend==="GIAM"?"▼":"▬"}`).join(" ");
+      body.innerHTML += `<tr onclick="showRadarDet('${sym}')"><td><b>${sym}</b></td><td class="${side==="LONG"?"up":side==="SHORT"?"dn":"mu"}">${side}</td><td>${prob}%</td><td>${fpx(px)}</td><td>${trs}</td></tr>`;
+    } catch (e) {}
+  }
+  st.textContent = "Xong " + new Date().toLocaleTimeString();
+  const first = Object.keys(radarResults)[0]; if (first) showRadarDet(first);
+}
+function showRadarDet(sym) {
+  const o = radarResults[sym]; if (!o) return;
+  const lines = [`${o.sym} · ${fpx(o.px)} → ${o.side} (xác suất tăng ~${o.prob}%)`, ""];
+  ["15m","1h","4h","1d"].forEach(tf => {
+    const a = o.res[tf], dr = o.agg>=0?1:-1, tp1 = o.px + dr*1.5*a.atr, tp2 = o.px + dr*3*a.atr, sl = o.px - dr*1.5*a.atr;
+    lines.push(`[${tf}] ${a.trend} · RSI ${a.rsi.toFixed(0)} · ADX ${a.adx.toFixed(0)} · ${a.why.join(", ")}`);
+    lines.push(`     TP1 ${fpx(tp1)} / TP2 ${fpx(tp2)} / SL ${fpx(sl)}`);
+  });
+  document.getElementById("radarDetail").textContent = lines.join("\n");
+}
+
+async function startFullScan() {
+  fullStop = false; fullRows = [];
+  const tf = document.getElementById("fullTf").value, minV = +document.getElementById("fullMinVol").value || 0, prog = document.getElementById("fullProg");
+  prog.textContent = "Đang tải danh sách perp...";
+  try {
+    const list = (await fetchTickers()).filter(x => x.qv >= minV).sort((a,b)=>b.qv-a.qv).slice(0, 80);
+    for (let i=0; i<list.length && !fullStop; i++) {
+      const it = list[i];
+      try {
+        const kl = await fetchKlines(it.sym, tf, 220), a = analyzeTf(kl);
+        const vols = kl.slice(-22, -2).map(x=>x.v), avgV = vols.reduce((x,y)=>x+y,0)/Math.max(vols.length,1), vr = kl[kl.length-2].v / (avgV||1);
+        const klText = a.score>=2.5?"NGHIÊNG LONG":a.score<=-2.5?"NGHIÊNG SHORT":"—";
+        fullRows.push({ sym:it.sym, px:a.close, chg:it.chg, vol:it.qv, vr, tr:a.trend, sc:a.score, kl:klText });
+        if (i%4===0 || i===list.length-1) renderFullTable();
+      } catch (e) {}
+      prog.textContent = `Đã quét ${i+1}/${list.length} mã (${tf})`;
+    }
+  } catch (e) { prog.textContent = "Lỗi: " + e.message; }
+}
+function renderFullTable() {
+  const ft = document.getElementById("fullFilterTrend").value, v2 = document.getElementById("fullChkVol").checked;
+  const sig = document.getElementById("fullChkSig").checked, favOnly = document.getElementById("fullChkFav").checked, favs = state.cfg.fav || [];
+  const rows = fullRows.filter(r => (ft==="ALL"||r.tr===ft) && (!v2||r.vr>2) && (!sig||r.kl!=="—") && (!favOnly||favs.includes(r.sym)));
+  document.getElementById("fullBody").innerHTML = rows.map(r => `
+    <tr onclick="selectSym('${r.sym}');switchTab('chart',document.querySelectorAll('.tab')[2]);loadChart()">
+      <td onclick="event.stopPropagation();toggleFav('${r.sym}')">${favs.includes(r.sym)?"★":"☆"}</td>
+      <td><b>${r.sym}</b></td><td>${fpx(r.px)}</td>
+      <td class="${r.chg>=0?"up":"dn"}">${r.chg>=0?"+":""}${r.chg.toFixed(1)}%</td>
+      <td>${Math.round(r.vol).toLocaleString()}</td><td>${r.vr.toFixed(1)}×</td>
+      <td>${r.tr}</td><td>${r.sc.toFixed(1)}</td>
+      <td class="${r.kl.includes("LONG")?"up":r.kl.includes("SHORT")?"dn":"mu"}">${r.kl}</td>
+    </tr>`).join("");
+}
+
+async function loadChart() {
+  const sym = normSym(document.getElementById("chartSym").value) || "BTCUSDT", tf = document.getElementById("chartTf").value;
+  document.getElementById("chartTrend").textContent = "Đang tải...";
+  try {
+    const raw = await fetchKlines(sym, tf, 220), ind = addInd(raw).slice(-120);
+    chartData = { sym, tf, d: ind };
+    const a = analyzeTf(raw);
+    document.getElementById("chartTrend").innerHTML = `${sym} · ${tf} <span class="${a.trend==="TANG"?"up":a.trend==="GIAM"?"dn":"mu"}">${a.trend} (${a.score.toFixed(1)})</span> · RSI ${a.rsi.toFixed(0)} · ADX ${a.adx.toFixed(0)}`;
+    drawChart();
+  } catch (e) { document.getElementById("chartTrend").textContent = "Lỗi: " + e.message; }
+}
+function drawChart(hoverIdx=null) {
+  if (!chartData) return;
+  const cv = document.getElementById("chartCanvas"), d = chartData.d, W = cv.width = cv.clientWidth || 900, H = cv.height = 440, ctx = cv.getContext("2d");
+  ctx.clearRect(0,0,W,H);
+  const showRSI = document.getElementById("cRSI").checked, padL = 12, padR = 72, padT = 16, mainH = showRSI ? H*0.64 : H*0.76, volY = mainH + 22, volH = showRSI ? H*0.14 : H*0.18;
+  const lo = Math.min(...d.map(x=>x.l)), hi = Math.max(...d.map(x=>x.h)), rng = (hi-lo)||1, yOf = p => padT + (1 - (p-lo)/rng)*(mainH-padT), bw = (W-padL-padR)/d.length;
+  ctx.strokeStyle = "rgba(138,150,168,0.16)"; ctx.fillStyle = "#8a96a8"; ctx.font = "11px Consolas";
+  for (let g=0;g<=4;g++) { const y = padT + g*(mainH-padT)/4, p = hi - g*rng/4; ctx.beginPath(); ctx.moveTo(padL, y); ctx.lineTo(W-padR, y); ctx.stroke(); ctx.fillText(fpx(p), W-padR+6, y+4); }
+  const maxV = Math.max(...d.map(x=>x.v))||1;
+  d.forEach((x,i) => {
+    const cx = padL + (i+0.5)*bw, col = x.c>=x.o ? "#26a69a" : "#ef5350";
+    ctx.strokeStyle = col; ctx.fillStyle = col;
+    ctx.beginPath(); ctx.moveTo(cx, yOf(x.h)); ctx.lineTo(cx, yOf(x.l)); ctx.stroke();
+    const y1 = yOf(x.o), y2 = yOf(x.c), bh = Math.max(1.5, Math.abs(y2-y1));
+    ctx.fillRect(cx - bw*0.32, Math.min(y1,y2), Math.max(2, bw*0.64), bh);
+    const vh = (x.v/maxV)*volH; ctx.globalAlpha = 0.55; ctx.fillRect(cx - bw*0.32, volY+volH-vh, Math.max(2, bw*0.64), vh); ctx.globalAlpha = 1;
+  });
+  const plotLine = (key, col) => { ctx.strokeStyle = col; ctx.lineWidth = 1.4; ctx.beginPath(); d.forEach((x,i) => { const cx = padL+(i+0.5)*bw, yy = yOf(x[key]); if(i===0) ctx.moveTo(cx,yy); else ctx.lineTo(cx,yy); }); ctx.stroke(); ctx.lineWidth = 1; };
+  if (document.getElementById("cEMA20").checked) plotLine("e20", "#f5c542");
+  if (document.getElementById("cEMA50").checked) plotLine("e50", "#4da3ff");
+  if (document.getElementById("cEMA200").checked) plotLine("e200", "#e06c75");
+  if (document.getElementById("cVWAP").checked) plotLine("vwap", "#c678dd");
+  if (document.getElementById("cBB").checked) {
+    const upB=[], dnB=[]; for(let i=0;i<d.length;i++){const sl=d.slice(Math.max(0,i-19),i+1).map(x=>x.c),m=sl.reduce((a,b)=>a+b,0)/sl.length,sd=Math.sqrt(sl.reduce((a,b)=>a+(b-m)*(b-m),0)/sl.length);upB.push(m+2*sd);dnB.push(m-2*sd);}
+    [upB,dnB].forEach(arr=>{ctx.strokeStyle="#8a96a8";ctx.beginPath();arr.forEach((v,i)=>{const cx=padL+(i+0.5)*bw,yy=yOf(v);if(i===0)ctx.moveTo(cx,yy);else ctx.lineTo(cx,yy);});ctx.stroke();});
+  }
+  if (showRSI) { const ry0 = volY + volH + 14, rh = H - ry0 - 10; ctx.strokeStyle = "#c678dd"; ctx.beginPath(); d.forEach((x,i) => { const cx=padL+(i+0.5)*bw, yy=ry0+(1-x.rsi/100)*rh; if(i===0)ctx.moveTo(cx,yy);else ctx.lineTo(cx,yy); }); ctx.stroke(); }
+  const idx = hoverIdx !== null ? hoverIdx : d.length-1, bar = d[idx];
+  if (bar) {
+    const ch = (bar.c/bar.o - 1)*100;
+    document.getElementById("chartHoverInfo").textContent = `${new Date(bar.t).toLocaleString("vi-VN")} | Mở ${fpx(bar.o)} · Cao ${fpx(bar.h)} · Thấp ${fpx(bar.l)} · Đóng ${fpx(bar.c)} (${ch>=0?"+":""}${ch.toFixed(2)}%) · Vol ${Math.round(bar.v).toLocaleString()} · EMA20 ${fpx(bar.e20)} · RSI ${bar.rsi.toFixed(0)}`;
+    if (hoverIdx !== null) { const cx = padL + (hoverIdx+0.5)*bw; ctx.strokeStyle="rgba(255,255,255,0.45)"; ctx.setLineDash([4,4]); ctx.beginPath(); ctx.moveTo(cx,padT); ctx.lineTo(cx,H-8); ctx.stroke(); ctx.setLineDash([]); }
+  }
+}
+document.getElementById("chartCanvas").addEventListener("mousemove", e => {
+  if (!chartData) return;
+  const rect = e.target.getBoundingClientRect(), x = e.clientX - rect.left, padL=12, padR=72, bw = (rect.width - padL - padR)/chartData.d.length;
+  drawChart(Math.max(0, Math.min(chartData.d.length-1, Math.floor((x-padL)/bw))));
+});
+
+async function loadHeatmap() {
+  const sym = normSym(document.getElementById("hmSym").value) || "BTCUSDT", tf = document.getElementById("hmTf").value;
+  try {
+    const df = await fetchKlines(sym, tf, 400), show = Math.min(180, df.length), nb = 100;
+    const tail = df.slice(-show), lo = Math.min(...tail.map(x=>x.l))*0.94, hi = Math.max(...tail.map(x=>x.h))*1.06;
+    const step = (hi-lo)/nb, L = new Float64Array(nb), S = new Float64Array(nb), cols = [], LEVS = [[5,0.1],[10,0.25],[25,0.3],[50,0.2],[100,0.15]], MMR = 0.004;
+    for (let i=0;i<df.length;i++) {
+      const b = df[i], tp = (b.h+b.l+b.c)/3, lf = b.v>0 ? Math.max(0,Math.min(1,b.tb/b.v)) : 0.5;
+      for (let j=0;j<nb;j++) { const cen = lo+(j+0.5)*step; if (cen >= b.l) L[j]=0; if (cen <= b.h) S[j]=0; }
+      for (const [lv, sh] of LEVS) {
+        const jL = Math.floor((tp*(1-1/lv+MMR)-lo)/step), jS = Math.floor((tp*(1+1/lv-MMR)-lo)/step);
+        if (jL>=0 && jL<nb) L[jL] += b.qv*sh*lf; if (jS>=0 && jS<nb) S[jS] += b.qv*sh*(1-lf);
+      }
+      if (i >= df.length - show) { const c = new Float64Array(nb); for(let j=0;j<nb;j++) c[j]=L[j]+S[j]; cols.push(c); }
+    }
+    hmData = { sym, tf, lo, hi, step, nb, cols, tail, L, S }; drawHeatmap();
+  } catch (e) { toast("Lỗi Heatmap: " + e.message); }
+}
+function drawHeatmap() {
+  if (!hmData) return;
+  const cv = document.getElementById("hmCanvas"), W = cv.width = cv.clientWidth || 900, H = cv.height = 400, ctx = cv.getContext("2d");
+  const { lo, hi, nb, cols, tail, L, S } = hmData, padR = 110, plotW = W - padR, cw = plotW/cols.length, ch = H/nb;
+  let vmax = 1; cols.forEach(c => c.forEach(v => { if(v>vmax) vmax=v; }));
+  ctx.fillStyle = "#120a2b"; ctx.fillRect(0,0,W,H);
+  for (let x=0;x<cols.length;x++) for (let y=0;y<nb;y++) {
+    const v = cols[x][y]; if (v <= 0) continue;
+    const t = Math.pow(Math.min(1, v/(vmax*0.75)), 0.45);
+    ctx.fillStyle = `rgb(${Math.round(20+224*t)},${Math.round(12+212*Math.pow(t,1.2))},${Math.round(90+140*(1-Math.abs(t-0.4)))})`;
+    ctx.fillRect(x*cw, H-(y+1)*ch, Math.ceil(cw), Math.ceil(ch));
+  }
+  ctx.strokeStyle = "#ffffff"; ctx.lineWidth = 1.5; ctx.beginPath();
+  tail.forEach((b,i)=>{ const xx=(i+0.5)*cw, yy=H-((b.c-lo)/(hi-lo))*H; if(i===0)ctx.moveTo(xx,yy); else ctx.lineTo(xx,yy); }); ctx.stroke();
+  const maxBar = Math.max(...L, ...S, 1);
+  for (let y=0;y<nb;y++) {
+    const yy = H-(y+1)*ch;
+    if (L[y]>0) { ctx.fillStyle="#ef5350"; ctx.fillRect(plotW+4, yy, (L[y]/maxBar)*95, Math.max(1.5,ch)); }
+    if (S[y]>0) { ctx.fillStyle="#26a69a"; ctx.fillRect(plotW+4, yy, (S[y]/maxBar)*95, Math.max(1.5,ch)); }
+  }
+}
+function startLiqWS() {
+  try {
+    const ws = new WebSocket("wss://fstream.binance.com/ws/!forceOrder@arr");
+    ws.onopen = () => document.getElementById("hmStat").textContent = "Luồng thanh lý: đang nhận realtime";
+    ws.onmessage = ev => {
+      try {
+        const o = JSON.parse(ev.data).o, px = (+o.ap)||(+o.p), usd = px*(+o.z);
+        liqEvents.unshift({ t:new Date().toLocaleTimeString(), s:o.s, side:o.S==="SELL"?"LONG bị thanh lý":"SHORT bị thanh lý", usd });
+        if (liqEvents.length > 30) liqEvents.pop();
+        const curHm = normSym(document.getElementById("hmSym").value), rows = liqEvents.filter(x=>!curHm || x.s===curHm).slice(0,6);
+        document.getElementById("liqBody").innerHTML = rows.map(x=>`<tr><td>${x.t}</td><td><b>${x.s}</b></td><td class="${x.side.includes("LONG")?"dn":"up"}">${x.side}</td><td>$${Math.round(x.usd).toLocaleString()}</td></tr>`).join("");
+      } catch (_) {}
+    };
+  } catch (_) {}
+}
+
+async function runBacktest() {
+  const sym = normSym(document.getElementById("btSym").value)||"BTCUSDT", tf = document.getElementById("btTf").value;
+  const thr = +document.getElementById("btThr").value||2.5, plan = document.getElementById("btPlan").checked, resEl = document.getElementById("btRes");
+  resEl.textContent = "Đang chạy...";
+  try {
+    const kl = await fetchKlines(sym, tf, 600), df = addInd(kl); let i = 200, R = [], tp1c = 0;
+    while (i < df.length - 8) {
+      const sub = df.slice(Math.max(0,i-220), i+1), a = analyzeTf(sub);
+      if (Math.abs(a.score) < thr || !a.atr) { i++; continue; }
+      const d = a.score>0?1:-1, entry = df[i].o, risk = 1.5*a.atr, sl = entry - d*risk, tp = entry + d*(plan?2.5:2.0)*risk, tp1 = entry + d*1.5*risk;
+      let out = df[Math.min(i+47, df.length-1)].c, j = Math.min(i+47, df.length-1), hit1 = false;
+      for (let k=i; k<=j; k++) {
+        if (d>0 ? df[k].l<=sl : df[k].h>=sl) { out=sl; j=k; break; }
+        if (plan && (d>0 ? df[k].h>=tp1 : df[k].l<=tp1)) hit1 = true;
+        if (d>0 ? df[k].h>=tp : df[k].l<=tp) { out=tp; j=k; break; }
+      }
+      if (hit1) tp1c++; R.push(d*(out-entry)/risk - 2*0.0005*entry/risk); i = j + 1;
+    }
+    if (!R.length) return resEl.textContent = "Không có lệnh nào.";
+    let eq = [], sum=0, peak=0, mdd=0; R.forEach(r=>{ sum+=r; eq.push(sum); peak=Math.max(peak,sum); mdd=Math.max(mdd,peak-sum); });
+    const win = R.filter(r=>r>0).length/R.length;
+    resEl.textContent = `${sym} ${tf}: ${R.length} lệnh · Thắng ${(win*100).toFixed(0)}% · Tổng ${sum>=0?"+":""}${sum.toFixed(1)}R · MDD ${mdd.toFixed(1)}R` + (plan?` · TP1 ${(tp1c/R.length*100).toFixed(0)}%`:"");
+    const cv = document.getElementById("btCanvas"), W=cv.width=cv.clientWidth||800, H=cv.height=360, ctx=cv.getContext("2d");
+    ctx.clearRect(0,0,W,H); const lo=Math.min(0,...eq), hi=Math.max(1,...eq), rng=(hi-lo)||1;
+    ctx.strokeStyle = sum>=0?"#26a69a":"#ef5350"; ctx.lineWidth=2; ctx.beginPath();
+    eq.forEach((v,k)=>{ const x=20+(k/Math.max(1,eq.length-1))*(W-40), y=H-20-((v-lo)/rng)*(H-40); if(k===0)ctx.moveTo(x,y); else ctx.lineTo(x,y); }); ctx.stroke();
+  } catch (e) { resEl.textContent = "Lỗi: " + e.message; }
+}
+
+function tBal() { return (+state.test.acc.cap||0) + (+state.test.acc.real||0); }
+function tMgn(p) { return p.q * p.e / p.lv; }
+function tAvail() { const used = state.test.pos.reduce((s,p)=>s+tMgn(p),0) + state.test.pend.reduce((s,o)=>s+o.q*o.price/o.lv,0); return Math.max(0, tBal() - used); }
+function tLiq(p) { const r = 0.004; return Math.max(0, p.d==="L" ? p.e*(1 - 1/p.lv + r) : p.e*(1 + 1/p.lv - r)); }
+function tCapChanged() { state.test.acc.cap = +document.getElementById("tCapInp").value || 0; saveState(); renderTest(); }
+function tReset() { if (!confirm("Đặt lại tài khoản giả lập?")) return; state.test.acc.real=0; state.test.pos=[]; state.test.pend=[]; state.test.hist=[]; saveState(); renderTest(); }
+function tToggleLimit() { document.getElementById("tLimitBox").classList.toggle("hidden", document.getElementById("tType").value==="Market"); }
+function tPct(pc) { document.getElementById("tMargin").value = (tAvail()*pc/100).toFixed(2); }
+async function tFetchOneMark() {
+  const sym = normSym(document.getElementById("tSym").value); if (!sym) return;
+  try { const p = await fetchMarkPrice(sym); tMarks[sym] = p; document.getElementById("tMkLbl").textContent = `Giá ĐD: ${fpx(p)}`; } catch (_) {}
+}
+async function tOpen(d) {
+  const sym = normSym(document.getElementById("tSym").value), mode = document.getElementById("tMode").value, lv = +document.getElementById("tLv").value || 10;
+  const typ = document.getElementById("tType").value, m = +document.getElementById("tMargin").value, tp = +document.getElementById("tTp").value || 0, sl = +document.getElementById("tSl").value || 0;
+  if (!sym || !m || m<=0) return toast("⚠️ Nhập cặp và Margin > 0!");
+  if (m > tAvail()) return toast("⚠️ Vượt quá vốn khả dụng!");
+  let px = typ==="Market" ? (await fetchMarkPrice(sym)) : (+document.getElementById("tLimitPx").value || 0);
+  if (!px || px<=0) return toast("⚠️ Giá không hợp lệ!");
+  tMarks[sym] = px; const q = m*lv/px;
+  if (typ==="Market") {
+    state.test.acc.real -= q*px*0.0005;
+    const ex = state.test.pos.find(x=>x.s===sym && x.d===d);
+    if (ex) { ex.e = (ex.q*ex.e + q*px)/(ex.q+q); ex.q += q; if(tp)ex.tp=tp; if(sl)ex.sl=sl; }
+    else state.test.pos.push({ id:Date.now(), s:sym, d, mode, lv, e:px, q, tp, sl, t:Date.now(), fee:q*px*0.0005, fund:0 });
+    tSeg = "pos"; toast(`✅ Đã mở ${d==="L"?"LONG":"SHORT"} ${sym}`);
+  } else {
+    state.test.pend.push({ id:Date.now(), s:sym, d, mode, lv, price:px, q, tp, sl, t:Date.now() });
+    tSeg = "pend"; toast(`✅ Đã đặt lệnh Limit ${sym}`);
+  }
+  saveState(); renderTest();
+}
+function tClosePos(idx, px, why="Đóng tay") {
+  const p = state.test.pos[idx], mk = px || tMarks[p.s] || p.e, pnl = ((p.d==="L"?mk-p.e:p.e-mk)*p.q) - p.q*mk*0.0005;
+  state.test.acc.real += pnl; state.test.hist.unshift({ s:p.s, d:p.d, e:p.e, x:mk, pnl:pnl-(p.fee||0), why, t:Date.now() });
+  state.test.pos.splice(idx, 1); saveState(); renderTest();
+}
+function tCloseAll() { for(let i=state.test.pos.length-1;i>=0;i--) tClosePos(i, null, "Đóng tay"); }
+function renderTest() {
+  document.getElementById("tCapInp").value = state.test.acc.cap;
+  document.getElementById("tBalLbl").textContent = `Số dư: ${fnum(tBal())} USDT · Khả dụng: ${fnum(tAvail())} USDT`;
+  document.getElementById("cntPos").textContent = state.test.pos.length; document.getElementById("cntPend").textContent = state.test.pend.length;
+  const head = document.getElementById("testHead"), body = document.getElementById("testBody");
+  if (tSeg === "pos") {
+    head.innerHTML = "<tr><th>Hướng</th><th>Cặp</th><th>Đòn bẩy</th><th>Margin</th><th>Giá vào</th><th>Giá ĐD</th><th>Thanh lý</th><th>PnL (ROI%)</th><th>Thao tác</th></tr>";
+    body.innerHTML = state.test.pos.map((p,i) => {
+      const mk = tMarks[p.s] || p.e, pnl = (p.d==="L"?mk-p.e:p.e-mk)*p.q, roi = pnl/tMgn(p)*100;
+      return `<tr><td class="${p.d==="L"?"up":"dn"}">${p.d==="L"?"LONG":"SHORT"}</td><td><b>${p.s}</b></td><td>${p.mode} ${p.lv}x</td><td>${fnum(tMgn(p))}</td><td>${fpx(p.e)}</td><td>${fpx(mk)}</td><td>${fpx(tLiq(p))}</td><td class="${pnl>=0?"up":"dn"}">${pnl>=0?"+":""}${fnum(pnl)} (${roi.toFixed(1)}%)</td><td><button class="btn-dn btn-sm" onclick="tClosePos(${i})">Đóng</button></td></tr>`;
+    }).join("") || `<tr><td colspan="9" class="mu" style="text-align:center">Chưa có vị thế</td></tr>`;
+  } else if (tSeg === "pend") {
+    head.innerHTML = "<tr><th>Hướng</th><th>Cặp</th><th>Chế độ</th><th>Giá đặt</th><th>Margin</th><th>Thao tác</th></tr>";
+    body.innerHTML = state.test.pend.map((o,i)=>`<tr><td class="${o.d==="L"?"up":"dn"}">${o.d==="L"?"LONG":"SHORT"}</td><td><b>${o.s}</b></td><td>${o.mode} ${o.lv}x</td><td>${fpx(o.price)}</td><td>${fnum(o.q*o.price/o.lv)}</td><td><button class="btn-dn btn-sm" onclick="state.test.pend.splice(${i},1);saveState();renderTest()">Hủy</button></td></tr>`).join("") || `<tr><td colspan="6" class="mu" style="text-align:center">Không có lệnh chờ</td></tr>`;
+  } else {
+    head.innerHTML = "<tr><th>Hướng</th><th>Cặp</th><th>Vào</th><th>Đóng</th><th>PnL</th><th>Lý do</th><th>Thời gian</th></tr>";
+    body.innerHTML = state.test.hist.slice(0,40).map(h=>`<tr><td class="${h.d==="L"?"up":"dn"}">${h.d==="L"?"LONG":"SHORT"}</td><td>${h.s}</td><td>${fpx(h.e)}</td><td>${fpx(h.x)}</td><td class="${h.pnl>=0?"up":"dn"}">${fnum(h.pnl)}</td><td>${h.why}</td><td>${new Date(h.t).toLocaleString("vi-VN")}</td></tr>`).join("");
+  }
+}
+
+function dRebuild() {
+  document.getElementById("dcaRows").innerHTML = state.test.dr.map((r,i)=>`
+    <div class="panel" style="margin-bottom:8px;">
+      <div class="bar" style="justify-content:space-between;margin-bottom:6px;"><b>Cặp #${i+1}</b><button class="btn-dn btn-sm" onclick="state.test.dr.splice(${i},1);saveState();dRebuild()">Xóa</button></div>
+      <div class="form-grid">
+        <div class="field"><label>Cặp</label><input value="${esc(r.s)}" onchange="state.test.dr[${i}].s=normSym(this.value);saveState()"></div>
+        <div class="field"><label>Hướng</label><select onchange="state.test.dr[${i}].d=this.value;saveState()"><option value="L" ${r.d==="L"?"selected":""}>Long</option><option value="S" ${r.d==="S"?"selected":""}>Short</option></select></div>
+        <div class="field"><label>Đòn bẩy</label><input type="number" value="${esc(r.lv)}" onchange="state.test.dr[${i}].lv=this.value;saveState()"></div>
+        <div class="field"><label>Margin (USDT)</label><input type="number" value="${esc(r.m)}" onchange="state.test.dr[${i}].m=this.value;saveState()"></div>
+        <div class="field"><label>Số lệnh DCA</label><input type="number" value="${esc(r.n||3)}" onchange="state.test.dr[${i}].n=this.value;saveState()"></div>
+        <div class="field"><label>Hệ số Margin</label><input type="number" step="0.1" value="${esc(r.mu||1.5)}" onchange="state.test.dr[${i}].mu=this.value;saveState()"></div>
+      </div>
+    </div>`).join("");
+}
+function dAddRow() { state.test.dr.push({ s:"ETHUSDT", d:"L", lv:"10", m:"100", e:"", n:"3", mu:"1.5", z:"mu", U:"" }); saveState(); dRebuild(); }
+async function dRunPlan() {
+  const out = document.getElementById("dcaOut"); out.textContent = "Đang phân tích hỗ trợ/kháng cự 1h/4h/1d...";
+  lastDcaPlans = []; const lines = [];
+  for (const r of state.test.dr) {
+    const sym = normSym(r.s), L = r.d==="L", lv = +r.lv||10, m0 = +r.m||100, n = Math.max(1, +r.n||3), mu = +r.mu||1.5;
+    const kl = await fetchKlines(sym, "4h", 220), a = analyzeTf(kl), px = kl[kl.length-1].c, sg = L?-1:1;
+    let q = m0*lv/px, N = m0*lv, Cm = m0; const rows = [{ p:px, m:m0, avg:px, lq:px*(1+sg*(1/lv-0.004)) }];
+    for (let k=1;k<=n;k++) { const pk = rows[rows.length-1].p + sg*1.8*a.atr, mk = m0*Math.pow(mu, k); q += mk*lv/pk; N += mk*lv; Cm += mk; const avg = N/q; rows.push({ p:pk, m:mk, avg, lq:avg*(1+sg*(Cm/N-0.004)) }); }
+    lastDcaPlans.push({ sym, d:r.d, lv, rows });
+    lines.push(`=== ${sym} ${L?"LONG":"SHORT"} ${lv}x · Giá ${fpx(px)} (${a.trend}) ===`, "  Lệnh   Giá DCA      Margin    Giá TB       Thanh lý");
+    rows.forEach((x,k)=>lines.push(`  #${k}     ${fpx(x.p).padEnd(11)}  ${fnum(x.m).padStart(7)}   ${fpx(x.avg).padEnd(11)}  ${fpx(x.lq)}`)); lines.push("");
+  }
+  out.textContent = lines.join("\n");
+}
+function dRunPortfolio() {
+  if (!state.test.pos.length) return toast("⚠️ Chưa có vị thế đang mở ở tab TEST!");
+  state.test.dr = state.test.pos.map(p => ({ s:p.s, d:p.d, lv:String(p.lv), m:String(tMgn(p).toFixed(2)), e:String(p.e), n:"3", mu:"1.5", z:"mu", U:"" }));
+  saveState(); dRebuild(); dRunPlan();
+}
+function dPlaceRows() {
+  if (!lastDcaPlans.length) return toast("⚠️ Bấm 'Phân tích DCA' trước!");
+  lastDcaPlans.forEach(pl => pl.rows.slice(1).forEach(x => state.test.pend.push({ id:Date.now()+Math.random(), s:pl.sym, d:pl.d, mode:"Cross", lv:pl.lv, price:x.p, q:x.m*pl.lv/x.p, tp:0, sl:0, t:Date.now() })));
+  saveState(); tSeg="pend"; renderTest(); toast("✅ Đã đặt các lệnh DCA chờ vào tab TEST!");
+}
+
+function renderNewsCache() {
+  const cal = (state.news_cache && state.news_cache.cal) || [], news = (state.news_cache && state.news_cache.news) || [];
+  document.getElementById("calBody").innerHTML = cal.map(e=>`<tr><td>${esc((e.t||"").slice(0,16).replace("T"," "))}</td><td>${esc(e.country)}</td><td>${esc(e.title)}</td><td class="${e.impact==="High"?"amb":"mu"}">${esc(e.impact)}</td><td>${esc(e.forecast||"-")}</td><td>${esc(e.actual||"-")}</td></tr>`).join("") || `<tr><td colspan="6" class="mu">Chưa có lịch (hãy bấm Làm mới hoặc Đồng bộ từ Desktop)</td></tr>`;
+  document.getElementById("newsBody").innerHTML = news.map(n=>`<tr onclick="${n.link?`window.open('${esc(n.link)}','_blank')`:""}"><td>${esc((n.t||"").slice(0,16).replace("T"," "))}</td><td>${esc(n.src)}</td><td>${esc(n.cats&&n.cats[0]?n.cats[0][0]:"-")}</td><td>${esc(n.title)}</td></tr>`).join("") || `<tr><td colspan="4" class="mu">Chưa có tin</td></tr>`;
+}
+async function refreshNewsWeb() {
+  try {
+    const res = await fetch("https://nfs.faireconomy.media/ff_calendar_thisweek.json");
+    if (res.ok) { const j = await res.json(); state.news_cache.cal = j.map(x=>({ t:x.date, country:x.country, title:x.title, impact:x.impact, forecast:x.forecast, actual:x.actual })); saveState(); renderNewsCache(); toast("✅ Đã cập nhật lịch kinh tế!"); }
+  } catch (e) { toast("⚠️ Trình duyệt chặn CORS lịch kinh tế, dùng dữ liệu đồng bộ từ Desktop/GitHub!"); }
+}
+
+function utf8ToBase64(str) {
+  const bytes = new TextEncoder().encode(str); let bin = "";
+  for (let i=0; i<bytes.length; i+=0x8000) bin += String.fromCharCode.apply(null, bytes.subarray(i, i+0x8000));
+  return btoa(bin);
+}
+function base64ToUtf8(b64) {
+  const bin = atob(b64.replace(/\s/g,"")), bytes = new Uint8Array(bin.length);
+  for (let i=0;i<bin.length;i++) bytes[i] = bin.charCodeAt(i);
+  return new TextDecoder("utf-8").decode(bytes);
+}
+function openGithubModal() {
+  openModal(`
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;"><b>☁️ Đồng Bộ & Sao Lưu GitHub (Hung Nguyen Radar)</b><button class="btn-ghost btn-sm" onclick="closeModal()">✖</button></div>
+    <div class="form-grid">
+      <div class="field"><label>Username GitHub (KHÔNG điền Email)</label><input id="ghOwner" value="${esc(ghCfg.owner)}" placeholder="vd: nguyen6679"></div>
+      <div class="field"><label>Repository (không dấu cách)</label><input id="ghRepo" value="${esc(ghCfg.repo)}" placeholder="vd: RADAR-V3.1.0"></div>
+      <div class="field"><label>Branch</label><input id="ghBranch" value="${esc(ghCfg.branch||"main")}"></div>
+      <div class="field"><label>File Sync JSON</label><input id="ghPath" value="${esc(ghCfg.data_path||"hung_nguyen_radar_sync.json")}"></div>
+    </div>
+    <div class="field" style="margin-top:8px;"><label>GitHub Token (PAT - chỉ lưu trong trình duyệt này)</label><input type="password" id="ghTok" value="${esc(ghCfg.token||"")}"></div>
+    <p id="ghMsg" class="amb" style="font-size:12px;margin:8px 0;"></p>
+    <div class="bar">
+      <button class="btn-ghost btn-sm" onclick="ghAutoFillWeb()">🪄 Lấy User từ Token</button>
+      <button class="btn-acc" onclick="ghPushWeb()">☁️ Sao lưu lên GitHub</button>
+      <button class="btn-up" onclick="ghPullWeb()">⬇️ Kéo từ GitHub về</button>
+      <button class="btn-ghost" onclick="readGhForm()">💾 Lưu</button>
+    </div>`);
+}
+function readGhForm() {
+  let owner = document.getElementById("ghOwner").value.trim(), repo = document.getElementById("ghRepo").value.trim();
+  const m = (repo + " " + owner).match(/github\.com\/([^/\s]+)\/([^/\s?#]+)/i);
+  if (m) { owner = m[1]; repo = m[2].replace(/\.git$/i,""); }
+  ghCfg = { owner, repo, branch:document.getElementById("ghBranch").value.trim()||"main", data_path:document.getElementById("ghPath").value.trim()||"hung_nguyen_radar_sync.json", token:document.getElementById("ghTok").value.trim() };
+  saveGhCfg(); return ghCfg;
+}
+async function ghReq(url, opts={}) {
+  const headers = Object.assign({ "Accept":"application/vnd.github+json","X-GitHub-Api-Version":"2022-11-28" }, opts.headers||{});
+  if (ghCfg.token) headers["Authorization"] = "Bearer " + ghCfg.token;
+  const r = await fetch(url, Object.assign({}, opts, { headers })), txt = await r.text();
+  let j = {}; try { j = txt?JSON.parse(txt):{}; } catch (_) {}
+  if (!r.ok) throw new Error(`HTTP ${r.status}: ${j.message||txt}`);
+  return j;
+}
+async function ghAutoFillWeb() {
+  const g = readGhForm(), msg = document.getElementById("ghMsg");
+  if (!g.token) return msg.textContent = "⚠️ Nhập Token trước!";
+  msg.textContent = "⏳ Đang lấy Username từ Token...";
+  try {
+    const u = await ghReq("https://api.github.com/user");
+    if (u.login) { document.getElementById("ghOwner").value = u.login; readGhForm(); }
+    const repos = await ghReq("https://api.github.com/user/repos?per_page=20&sort=updated");
+    if (Array.isArray(repos) && repos.length && !document.getElementById("ghRepo").value.trim()) {
+      document.getElementById("ghRepo").value = repos[0].name; readGhForm();
+    }
+    msg.textContent = `✅ Tài khoản: ${u.login}. Các Repo có sẵn: ${(repos||[]).map(r=>r.name).slice(0,5).join(", ")}`;
+  } catch (e) { msg.textContent = "❌ " + e.message; }
+}
+async function ghPushWeb() {
+  const g = readGhForm(), msg = document.getElementById("ghMsg");
+  if (!g.owner || !g.repo || !g.token) return msg.textContent = "⚠️ Cần nhập Username, Repo và Token!";
+  if (g.owner.includes("@")) return msg.textContent = "⚠️ Không nhập Email vào ô Owner! Hãy nhập Username hoặc bấm '🪄 Lấy User từ Token'.";
+  msg.textContent = "⏳ Đang sao lưu lên GitHub...";
+  try {
+    const apiUrl = `https://api.github.com/repos/${encodeURIComponent(g.owner)}/${encodeURIComponent(g.repo)}/contents/${g.data_path.split("/").map(encodeURIComponent).join("/")}`;
+    let sha = null; try { sha = (await ghReq(`${apiUrl}?ref=${encodeURIComponent(g.branch)}`)).sha; } catch (_) {}
+    const body = { message:`Radar sync from Web (${new Date().toLocaleString()})`, content:utf8ToBase64(JSON.stringify(state,null,2)), branch:g.branch };
+    if (sha) body.sha = sha;
+    await ghReq(apiUrl, { method:"PUT", headers:{"Content-Type":"application/json"}, body:JSON.stringify(body) });
+    msg.textContent = "✅ Đã sao lưu toàn bộ cấu hình, TEST lệnh & DCA lên GitHub!"; toast("☁️ Đã đẩy lên GitHub!");
+  } catch (e) { msg.textContent = "❌ " + e.message; }
+}
+async function ghPullWeb() {
+  const g = readGhForm(), msg = document.getElementById("ghMsg");
+  if (!g.owner || !g.repo) return msg.textContent = "⚠️ Nhập Username và Repo!";
+  msg.textContent = "⏳ Đang tải từ GitHub...";
+  try {
+    const apiUrl = `https://api.github.com/repos/${encodeURIComponent(g.owner)}/${encodeURIComponent(g.repo)}/contents/${g.data_path.split("/").map(encodeURIComponent).join("/")}?ref=${encodeURIComponent(g.branch)}`;
+    const d = await ghReq(apiUrl);
+    let b64 = d.content||"";
+    if (!b64 && d.sha) b64 = (await ghReq(`https://api.github.com/repos/${encodeURIComponent(g.owner)}/${encodeURIComponent(g.repo)}/git/blobs/${d.sha}`)).content||"";
+    const parsed = JSON.parse(base64ToUtf8(b64));
+    if (!confirm(`Tìm thấy bản sao lưu lúc ${parsed.exported_at||"?"}. Ghi đè dữ liệu hiện tại?`)) return;
+    state = normalizeState(parsed); saveState(); bootUI(); msg.textContent = "✅ Đã đồng bộ từ GitHub!"; toast("⬇️ Đã đồng bộ xong!");
+  } catch (e) { msg.textContent = "❌ " + e.message; }
+}
+function exportJsonState() {
+  const blob = new Blob([JSON.stringify(state,null,2)],{type:"application/json"}), a=document.createElement("a");
+  a.href = URL.createObjectURL(blob); a.download = `hung_nguyen_radar_backup_${new Date().toISOString().slice(0,10)}.json`; a.click();
+}
+function importJsonState(ev) {
+  const f = ev.target.files[0]; if (!f) return;
+  const rd = new FileReader();
+  rd.onload = () => { try { state = normalizeState(JSON.parse(rd.result)); saveState(); bootUI(); toast("✅ Đã nạp Backup JSON!"); } catch(e){ alert("Lỗi JSON: "+e.message); } };
+  rd.readAsText(f,"utf-8"); ev.target.value="";
+}
+
+function switchTab(id, btn) {
+  ["scan","full","chart","hm","bt","test","dca","news"].forEach(x => document.getElementById("tab-"+x).classList.toggle("hidden", x!==id));
+  document.querySelectorAll(".tabs .tab").forEach(b=>b.classList.remove("active"));
+  if (btn) btn.classList.add("active");
+  if (id==="chart") loadChart();
+  if (id==="hm") loadHeatmap();
+  if (id==="test") renderTest();
+  if (id==="dca") dRebuild();
+  if (id==="news") renderNewsCache();
+}
+function applyTheme(t) { document.documentElement.setAttribute("data-theme", t==="dark"?"":t); document.getElementById("selTheme").value = t; state.cfg.theme = t; saveState(); }
+function toggleLang() { state.cfg.lang = state.cfg.lang==="English"?"Tiếng Việt":"English"; saveState(); document.getElementById("btnLang").textContent = state.cfg.lang==="English"?"🇬🇧 EN":"🇻🇳 VI"; }
+function onExChange() { state.cfg.ex = document.getElementById("selEx").value; saveState(); }
+function openModal(h) { document.getElementById("modalBox").innerHTML=h; document.getElementById("modalRoot").classList.remove("hidden"); }
+function closeModal() { document.getElementById("modalRoot").classList.add("hidden"); }
+
+function bootUI() {
+  document.getElementById("inpSyms").value = state.cfg.syms || "XAUUSDT,XAGUSDT,BTCUSDT";
+  document.getElementById("selMode").value = state.cfg.mode || "Day Trading";
+  document.getElementById("selEx").value = state.cfg.ex || "binance";
+  const thMap = { "Mặc định":"dark","Light":"light","Hacker":"hacker","Binance":"binance","dark":"dark","light":"light","hacker":"hacker","binance":"binance" };
+  applyTheme(thMap[state.cfg.theme] || "dark");
+  document.getElementById("btnLang").textContent = state.cfg.lang==="English"?"🇬🇧 EN":"🇻🇳 VI";
+  renderTest(); dRebuild(); renderNewsCache();
+}
+
+setInterval(()=>{ const d=new Date(); document.getElementById("lblClock").textContent = d.toLocaleDateString("vi-VN")+" "+d.toLocaleTimeString("vi-VN"); }, 1000);
+setInterval(async ()=>{
+  const syms = [...new Set([...state.test.pos.map(x=>x.s), ...state.test.pend.map(x=>x.s)])];
+  if (!syms.length) return;
+  for (const s of syms) { try { tMarks[s] = await fetchMarkPrice(s); } catch(_){} }
+  for (let i=state.test.pend.length-1; i>=0; i--) {
+    const o = state.test.pend[i], m = tMarks[o.s];
+    if (m && (o.d==="L"?m<=o.price:m>=o.price)) {
+      state.test.pos.push({ id:Date.now(), s:o.s, d:o.d, mode:o.mode, lv:o.lv, e:o.price, q:o.q, tp:o.tp||0, sl:o.sl||0, t:Date.now(), fee:o.q*o.price*0.0002, fund:0 });
+      state.test.pend.splice(i,1); toast("⚡ Khớp lệnh chờ: "+o.s);
+    }
+  }
+  for (let i=state.test.pos.length-1; i>=0; i--) {
+    const p = state.test.pos[i], m = tMarks[p.s], L = p.d==="L", lq = tLiq(p);
+    if (!m) continue;
+    if ((L&&m<=lq)||(!L&&m>=lq)) tClosePos(i, lq, "Thanh lý");
+    else if (p.sl && ((L&&m<=p.sl)||(!L&&m>=p.sl))) tClosePos(i, p.sl, "SL");
+    else if (p.tp && ((L&&m>=p.tp)||(!L&&m<=p.tp))) tClosePos(i, p.tp, "TP");
+  }
+  saveState();
+  if (!document.getElementById("tab-test").classList.contains("hidden")) renderTest();
+}, 6000);
+
+bootUI(); startLiqWS(); runScan();
+</script>
+</body>
+</html>
